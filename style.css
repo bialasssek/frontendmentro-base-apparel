@@ -118,6 +118,11 @@ input:focus {
 
 /* desktop view */
 @media (min-width: 500px) {
+  body {
+    background: url(images/bg-pattern-desktop.svg);
+    background-position: center;
+    background-size: cover;
+  }
   .container {
     grid-template-columns: 3fr 2fr;
   }
