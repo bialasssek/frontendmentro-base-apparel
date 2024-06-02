@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Base apparel coming soon master</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="images/logo.svg" alt="logo icon" class="logo" />
+        <img src="images/hero-mobile.jpg" alt="hero-img" class="hero-img" />
+        <div class="hero-content">
+          <h1 class="hero-title">We're <span>coming soon</span></h1>
+          <p class="hero-description">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <div class="input-wrapper">
+            <input
+              type="email"
+              name="email"
+              id="email-address"
+              placeholder="Email Address"
+            />
+            <img
+              class="icon-error hidden"
+              src="images/icon-error.svg"
+              alt="icon error"
+            />
+            <button type="submit" class="submit-btn">
+              <img src="images/icon-arrow.svg" alt="submit btn" />
+            </button>
+          </div>
+          <p class="error-message hidden">Please provide a valid email</p>
+        </div>
+      </div>
+      <div class="hero-img-desktop"></div>
+    </div>
+  </body>
+</html>
